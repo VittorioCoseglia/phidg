@@ -21,6 +21,4 @@ def phsp():
 
 
 if __name__ == '__main__':
-	app.run( # Starts the site
-		host='0.0.0.0',  # Establishes the host
-	)
+	app.run(debug=True)
